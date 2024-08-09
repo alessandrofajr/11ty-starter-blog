@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  {% include "partials/head.njk" %}
+</head>
+<body>
+    <header>
+      <h1><a href="/">Meu site</a> / <a href="/blog">blog</a></h1>
+    </header>
+    <main>
+        <h2>{{ title }}</h2>
+        <p>{{ date | date("DD-MM-YYYY") }}</p>
+        <div class="blog-content">
+          {{ content | safe }}
+        <div>
+    </main>
+  </div>
+</body>
+</html>

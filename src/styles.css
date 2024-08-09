@@ -1,0 +1,23 @@
+html, body {
+    background-color: #fbf5e4;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scrollbar-gutter: stable;
+}
+
+header {
+    max-width: 550px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+main {
+    max-width: 550px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    flex: 1;
+}
